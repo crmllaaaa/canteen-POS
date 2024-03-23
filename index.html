@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANTEEN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="order">
+            <h2>Order</h2>
+            <div id="foodContainer" class="container">
+            </div>
+            <p id="totalPrice">Total Price: 0 pesos</p>
+
+            <form>
+                <label><h2>Cash</h2></label>
+                <input type="number" id="money" min="0">
+                <input type="submit" value="Pay">
+            </form>
+        </div>
+        <div class="menu">
+            <h1>Welcome to the CANTEEN</h1>
+            <p>Prices are shown below</p>
+            <ul>
+                <li>Burger - 60 pesos</li>
+                <li>Fries - 50 pesos</li>
+                <li>Fishball - 20 pesos</li>
+                <li>Kikiam - 25 pesos</li>
+            </ul>
+            <button type="button" id="addFoodItem">Add a food item</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
